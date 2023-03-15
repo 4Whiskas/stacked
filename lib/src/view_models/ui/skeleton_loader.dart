@@ -103,7 +103,7 @@ class _SkeletonLoaderState extends State<SkeletonLoader>
                   /// TODO: This field is depreacted but I'm adding it
                   /// to support older versions for flutter
                   // ignore: deprecated_member_use
-                  vsync: this,
+                  //vsync: this,
                   duration: const Duration(milliseconds: 450),
                   curve: Curves.easeOut,
                   child: ShaderMask(
