@@ -1,9 +1,32 @@
-## [3.1.2](https://github.com/Stacked-Org/stacked/compare/v3.1.1...v3.1.2) (2023-03-14)
+## [3.2.2](https://github.com/Stacked-Org/stacked/compare/v3.2.1...v3.2.2) (2023-04-25)
 
 
 ### Bug Fixes
 
-* **deps:** update dependency androidx.test.espresso:espresso-core to v3.5.1 ([#899](https://github.com/Stacked-Org/stacked/issues/899)) ([04cd7a3](https://github.com/Stacked-Org/stacked/commit/04cd7a35989428a5aa727032a6fd7b0f85d3f478))
+* Adds new course to readme ([1510680](https://github.com/Stacked-Org/stacked/commit/1510680c118cd91fd67eeaf046fa0ec649f16e16))
+
+## [3.2.1](https://github.com/Stacked-Org/stacked/compare/v3.2.0...v3.2.1) (2023-04-12)
+
+
+### Bug Fixes
+
+* Updates shared version ([c0d24d8](https://github.com/Stacked-Org/stacked/commit/c0d24d8c4220467e5e52a45282279b3c8e44846a))
+
+# [3.2.0](https://github.com/Stacked-Org/stacked/compare/v3.1.2...v3.2.0) (2023-03-15)
+
+
+### Features
+
+* Merge latest version from beta ([#907](https://github.com/Stacked-Org/stacked/issues/907)) ([4e519aa](https://github.com/Stacked-Org/stacked/commit/4e519aa77d7cda989b5716ceec7d54ad0f3e01a0))
+
+## 3.2.0
+
+### Features
+
+Adds support for the new RouterService which uses Navigator 2.0 a fork from AutoRouter `5.0.4` to generate the generated code. 
+
+### Fixes
+- Updates `stacked_core` to `stacked_shared`. We lost access to `stacked_core` 😭
 
 ## 3.1.1
 - Added fix to extensible classes for ListenableServiceMixin
@@ -88,7 +111,7 @@ New CLI 🔥 Check it out in the [Docs](https://stacked.filledstacks.com)
 
 ## 2.3.9
 
-- Pump stacked_core version
+- Pump stacked_shared version
 - Update example app
 
 ## 2.3.8
@@ -111,7 +134,7 @@ New CLI 🔥 Check it out in the [Docs](https://stacked.filledstacks.com)
 
 ## 2.3.5
 
-- Use the stacked_core package to expose the stacked_annotation
+- Use the stacked_shared package to expose the stacked_annotation
 
 ## 2.3.4
 
